@@ -7,6 +7,11 @@ Disallow: /assets/fonts/
 Disallow: /assets/js/helper.js
 Disallow: /resets.html
 Disallow: /robots.txt
+Disallow: /staging/
+Disallow: /test/
+Disallow: /private-page/
+Noindex: /private-page/
+Nosnippet: /
 
 Allow: /assets/css/
 Allow: /assets/js/
