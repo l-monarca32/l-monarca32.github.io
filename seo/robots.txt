@@ -1,0 +1,8 @@
+User-agent: *           # Aplica a todos los bots
+Disallow: /admin/       # Bloquea la carpeta de administración
+Disallow: /private/     # Bloquea una carpeta privada
+Disallow: /login.html   # Bloquea la página de inicio de sesión
+
+Allow: /                # Permite indexar el resto del sitio
+
+Sitemap: https://www.monarca.github.io/sitemap.xml

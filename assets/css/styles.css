@@ -1,0 +1,79 @@
+:root {
+    --color-black: #0D0D0D;
+    --color-white: #FFFFFF;
+    --color-slate-gray: #1F2933;
+    --color-electric-blue: #5D5FEF;
+    --color-mint-green: #4ECCA3;
+    --color-sky-blue: #29C5F6;
+    --color-bright-yellow: #EBFF87;
+    --color-magenta: #FF00FF;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/assets/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--color-slate-gray);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: var(--color-electric-blue);
+    margin: 0;
+}
+
+header p {
+    color: var(--color-mint-green);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    background-color: var(--color-slate-gray);
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--color-sky-blue);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: var(--color-magenta);
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: var(--color-bright-yellow);
+}
+
+footer {
+    background-color: var(--color-slate-gray);
+    color: var(--color-electric-blue);
+    text-align: center;
+    padding: 10px;
+}
