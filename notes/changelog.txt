@@ -1,0 +1,33 @@
+Added
+Dynamic Menus (index.html, menu.css):
+
+Implemented hoverable dropdown menus that expand to show additional information.
+Styled menus with futuristic design and smooth transitions.
+Language Toggle Functionality (index.html, script.js):
+
+Added a language switch button to toggle between English and Spanish.
+JavaScript functionality allows dynamic content changes based on the selected language.
+Custom Font Support (styles.css, /assets/fonts/custom-font.woff2):
+
+Configured the custom font located in /assets/fonts/.
+Applied the font globally across the site.
+robots.txt Configuration (robots.txt):
+
+Defined rules to restrict access to sensitive directories (/server/, /data/, /uploads/) and unnecessary files.
+Allowed public access to essential static resources (/assets/).
+Included the sitemap URL for better search engine indexing.
+Added advanced directives like blocking query parameters and specifying crawl delay.
+New CSS File (menu.css):
+
+Dedicated file for dropdown menu styles and animations.
+Integrated color palette with futuristic themes.
+Changed
+index.html Enhancements:
+
+Updated the structure to include dropdown menus and the language toggle button.
+styles.css:
+
+Adjusted global styles to use the custom font.
+Fixed
+Global Visual Coherence:
+Unified styles across menus and general elements to ensure a consistent look and feel.
