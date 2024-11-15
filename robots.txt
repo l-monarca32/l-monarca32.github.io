@@ -1,8 +1,27 @@
-User-agent: *           # Aplica a todos los bots
-Disallow: /admin/       # Bloquea la carpeta de administración
-Disallow: /private/     # Bloquea una carpeta privada
-Disallow: /login.html   # Bloquea la página de inicio de sesión
+# Bloquea el acceso a carpetas sensibles y archivos privados
+User-agent: *
+Disallow: /server/
+Disallow: /data/
+Disallow: /uploads/
+Disallow: /seo/
+Disallow: /assets/fonts/
+Disallow: /assets/js/helper.js
+Disallow: /resets.html
+Disallow: /robots.txt
 
-Allow: /                # Permite indexar el resto del sitio
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
 
-Sitemap: https://www.monarca.github.io/sitemap.xml
+Disallow: /*?*
+Disallow: /*&*
+
+User-agent: BadBot
+Disallow: /
+
+Crawl-delay: 10
+
+Sitemap: https://www.tusitio.com/sitemap.xml
+
+User-agent: *
+Noarchive: /
