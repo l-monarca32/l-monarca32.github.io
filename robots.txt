@@ -1,4 +1,3 @@
-# Bloquea el acceso a carpetas sensibles y archivos privados
 User-agent: *
 Disallow: /server/
 Disallow: /data/
