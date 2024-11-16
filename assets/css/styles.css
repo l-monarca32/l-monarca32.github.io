@@ -16,8 +16,15 @@
     font-style: normal;
 }
 
+[id] {
+    transition: all 0.3 ease-in-out;
+}
+
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: 'Raleway', sans-serif;
     background-color: var(--color-black);
     color: var(--color-white);
@@ -64,6 +71,7 @@ nav ul li a:hover {
 }
 
 main {
+    flex: 1;
     padding: 20px;
 }
 
@@ -73,7 +81,10 @@ main h2 {
 
 footer {
     background-color: var(--color-slate-gray);
-    color: var(--color-electric-blue);
+    color: var(--color-white);
     text-align: center;
     padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }

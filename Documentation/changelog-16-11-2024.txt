@@ -1,0 +1,43 @@
+HTML Changes
+
+    Added head section to the HTML structure for better semantic organization and to improve SEO.
+
+    Added language toggle button (#language-toggle) for switching between English and Spanish. The button is integrated with the translation functionality.
+
+    Included the favicon link for the site’s icon.
+
+    Updated HTML structure to reflect changes in accessibility, including using aria-label for the language toggle button.
+
+CSS Changes
+
+    Added button-specific styles to a new dedicated buttons.css file:
+
+        Standard button styles for color, border-radius, padding, and transitions.
+
+        Hover and active button effects, including color changes and scale transformations.
+
+        Specific button styles for the language toggle button (focused on color change for hover and active states).
+
+Revised main CSS (styles.css) to remove any button-related styles and maintain the focus on general layout and design.
+
+JavaScript Changes
+
+    Created translation toggle functionality in script.js:
+
+        Implemented dynamic language change between English and Spanish using language-specific JSON data.
+        
+        Added a simple language toggle button to change the text content dynamically.
+
+General Site Updates
+    
+    Updated the footer to ensure it stays fixed at the bottom of the page instead of floating above the content.
+    
+    Introduced custom font styles with the Raleway font, applied throughout the site.
+    
+    Improved accessibility by adding aria-label for the language toggle button to indicate its function for screen readers.
+
+File and Folder Structure Updates
+    
+    Created a new CSS file for button styles (buttons.css) to centralize button-related designs and improve maintainability.
+    
+    Cleaned up CSS to ensure better separation of concerns between layout and button-specific styles.

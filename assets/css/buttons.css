@@ -1,0 +1,28 @@
+button {
+    background-color: var(--color-sky-blue);
+    color: var(--color-white);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: var(--color-electric-blue);
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button[aria-label="Toggle Language"] {
+    background-color: var(--color-mint-green);
+}
+
+button[aria-label="Toggle Language"]:hover {
+    background-color: var(--color-magenta);
+}
