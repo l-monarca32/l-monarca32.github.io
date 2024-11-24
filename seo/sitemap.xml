@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Página principal -->
   <url>
-    <loc>https://monarca.github.io/</loc>
+    <loc>https://l-monarca32.github.io/</loc>
     <lastmod>2024-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -10,7 +10,7 @@
 
   <!-- Página "Acerca de" -->
   <url>
-    <loc>https://monarca.github.io/about.html</loc>
+    <loc>https://l-monarca32.github.io/about.html</loc>
     <lastmod>2024-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -18,7 +18,7 @@
 
   <!-- Página "Contacto" -->
   <url>
-    <loc>https://monarca.github.io/contact.html</loc>
+    <loc>https://l-monarca32.github.io/contact.html</loc>
     <lastmod>2024-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -26,13 +26,13 @@
 
   <!-- Recursos adicionales -->
   <url>
-    <loc>https://monarca.github.io/assets/css/styles.css</loc>
+    <loc>https://l-monarca32.github.io/assets/css/styles.css</loc>
     <lastmod>2024-11-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://monarca.github.io/assets/js/script.js</loc>
+    <loc>https://l-monarca32.github.io/assets/js/script.js</loc>
     <lastmod>2024-11-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
